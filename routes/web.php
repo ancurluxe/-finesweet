@@ -20,6 +20,7 @@ Route::middleware('auth')->group(function () {
 
 Route::get('/', [FrontendController::class, 'home'])->name('home');
 Route::get('/contact', [FrontendController::class, 'contact'])->name('contact');
+Route::get('/our-teams', [FrontendController::class, 'teams'])->name('teams');
 
 
 

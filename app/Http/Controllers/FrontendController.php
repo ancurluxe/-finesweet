@@ -13,4 +13,7 @@ class FrontendController extends Controller
     public function contact(){
         return view ('frontend.contact.index');
     }
+    public function teams(){
+        return view ('frontend.our-teams.index');
+    }
 }
