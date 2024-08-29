@@ -83,7 +83,7 @@
     {{-- WHAT WE DO --}}
     <section class=" bg-[#e8fcef] pb-10">
         <div class="container ">
-            <div class="flex gap-4 items-center py-6">
+            <div class="flex gap-4 items-center pt-6">
                 <p class="w-16  h-[1px] bg-[#1D2130]"></p>
                 <p class="text-sm font-semibold text-[#1D2130]">WHAT WE DO</p>
             </div>
@@ -91,7 +91,7 @@
             <div class=" flex gap-7 justify-center flex-wrap lg:flex-nowrap ">
                 <div class="container">
                     <div class="py-5">
-                        <p class="text-4xl font-bold text-[#1D2130] py-3">We care for earth, care for the coming birth</p>
+                        <p class="text-4xl font-bold text-[#1D2130] pb-3">We care for earth, care for the coming birth</p>
                         <p class="text-[#525560]">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
                             varius enim in eros
                             elementum
@@ -236,7 +236,8 @@
     {{-- contribute --}}
     <section class="container">
         <div class="relative">
-            <img class="rounded-lg w-full h-72 " src="{{ asset('frontend/images/contribute.png') }}" alt="">
+            <img class="rounded-lg w-full h-72 object-cover  " src="{{ asset('frontend/images/contribute.png') }}"
+                alt="">
 
             <div class=" bg-black absolute inset-0 opacity-[42%] rounded-lg"> </div>
 
@@ -249,7 +250,7 @@
             <div class="absolute bottom-[18%] left-[30%] lg:left-[35%] space-x-5 space-y-5 ">
                 <button class="join bg-[#70C174] px-5 rounded-md md:font-medium text-white  p-2">Join as a
                     volunteer</button>
-                <button class="bg-white px-5 rounded-md font-medium  p-2">Donate</button>
+                <button class="bg-white px-10 md:px-5 rounded-md font-medium  p-2">Donate</button>
             </div>
         </div>
     </section>
@@ -264,7 +265,8 @@
         <div class="grid gap-5 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4">
             {{-- card-1 --}}
             <div class="bg-white   hover-shadow p-1">
-                <img class="rounded-lg h-44 w-full" src="{{ asset('frontend/images/card-1.png') }}" alt="">
+                <img class="rounded-lg h-44 w-full object-cover " src="{{ asset('frontend/images/card-1.png') }}"
+                    alt="">
                 <div class="py-3 space-y-3 ">
                     <p class="font-semibold ">Don’t destroy greenery and don’t spoil scenery</p>
                     <p class="text-[#525560] ">Lorem ipsum dolor sit amet conse adipisicing elit. Voluptatem item qui,
@@ -272,8 +274,9 @@
                 </div>
             </div>
             {{-- card-2 --}}
-            <div class="bg-white  hover:scale-105 hover:bg-[#e1fce5]  hover:shadow-sm  hover:rounded-md p-1">
-                <img class="rounded-lg h-44 w-full" src="{{ asset('frontend/images/contribute.png') }}" alt="">
+            <div class="bg-white hover-shadow p-1">
+                <img class="rounded-lg h-44 w-full object-cover " src="{{ asset('frontend/images/contribute.png') }}"
+                    alt="">
                 <div class="py-3 space-y-3">
                     <p class="font-semibold ">Don’t destroy greenery and don’t spoil scenery</p>
                     <p class="text-[#525560] text-justify">Lorem ipsum dolor sit amet conse adipisicing elit. Voluptatem
@@ -282,9 +285,9 @@
                 </div>
             </div>
             {{-- card-3 --}}
-            <div
-                class="bg-white  hover:scale-105 hover:bg-[#e1fce5] hover:shadow-[#364a39] hover:shadow-sm  hover:rounded-md p-1">
-                <img class="rounded-lg h-44 w-full" src="{{ asset('frontend/images/card-2.png') }}" alt="">
+            <div class="bg-white  hover-shadow p-1">
+                <img class="rounded-lg h-44 w-full object-cover " src="{{ asset('frontend/images/card-2.png') }}"
+                    alt="">
                 <div class="py-3 space-y-3">
                     <p class="font-semibold ">Don’t destroy greenery and don’t spoil scenery</p>
                     <p class="text-[#525560] text-justify">Lorem ipsum dolor sit amet conse adipisicing elit. Voluptatem
@@ -293,8 +296,9 @@
                 </div>
             </div>
             {{-- card-4 --}}
-            <div class="bg-white  shadow-radial p-1">
-                <img class="rounded-lg h-44 w-full" src="{{ asset('frontend/images/water.png') }}" alt="">
+            <div class="bg-white  hover-shadow p-1">
+                <img class="rounded-lg h-44 w-full object-cover " src="{{ asset('frontend/images/water.png') }}"
+                    alt="">
                 <div class="py-3 space-y-3">
                     <p class="font-semibold ">Don’t destroy greenery and don’t spoil scenery</p>
                     <p class="text-[#525560] text-justify">Lorem ipsum dolor sit amet conse adipisicing elit. Voluptatem
@@ -377,7 +381,7 @@
             {{-- card-1 --}}
             <div class="card-hover ">
                 <div>
-                    <img class="h-72  w-full   rounded-lg" src="{{ asset('frontend/images/team-1.png') }}"
+                    <img class="h-72  w-full  object-cover rounded-lg" src="{{ asset('frontend/images/team-1.png') }}"
                         alt="">
                 </div>
                 <div class="text-center space-y-2 p-2">
@@ -393,7 +397,7 @@
             {{-- card-2 --}}
             <div class="card-hover ">
                 <div>
-                    <img class="h-72  w-full  rounded-lg" src="{{ asset('frontend/images/team-2.png') }}"
+                    <img class="h-72  w-full object-cover  rounded-lg" src="{{ asset('frontend/images/team-2.png') }}"
                         alt="">
                 </div>
                 <div class="text-center space-y-2 p-2">
@@ -412,7 +416,7 @@
             {{-- card-3 --}}
             <div class="card-hover ">
                 <div>
-                    <img class="h-72 w-full   rounded-lg" src="{{ asset('frontend/images/team-3.png') }}"
+                    <img class="h-72 w-full object-cover   rounded-lg" src="{{ asset('frontend/images/team-3.png') }}"
                         alt="">
                 </div>
                 <div class="text-center space-y-2 p-2">
@@ -428,7 +432,8 @@
             {{-- card-4 --}}
             <div class="card-hover ">
                 <div>
-                    <img class="h-72 w-full rounded-lg" src="{{ asset('frontend/images/team-4.png') }}" alt="">
+                    <img class="h-72 w-full object-cover rounded-lg" src="{{ asset('frontend/images/team-4.png') }}"
+                        alt="">
                 </div>
                 <div class="text-center space-y-2 p-2">
                     <p class="text-[#1D2130] text-xl font-semibold">Leonard John Davies</p>
@@ -443,7 +448,8 @@
             {{-- card-5 --}}
             <div class="card-hover ">
                 <div>
-                    <img class="h-72 w-full rounded-lg" src="{{ asset('frontend/images/team-1.png') }}" alt="">
+                    <img class="h-72 object-cover  w-full rounded-lg" src="{{ asset('frontend/images/team-1.png') }}"
+                        alt="">
                 </div>
                 <div class="text-center space-y-2 p-2">
                     <p class="text-[#1D2130] text-xl font-semibold">Leonard John Davies</p>
@@ -458,7 +464,8 @@
             {{-- card-6 --}}
             <div class="card-hover ">
                 <div>
-                    <img class="h-72 w-full rounded-lg" src="{{ asset('frontend/images/team-4.png') }}" alt="">
+                    <img class="h-72 w-full object-cover  rounded-lg" src="{{ asset('frontend/images/team-4.png') }}"
+                        alt="">
                 </div>
                 <div class="text-center space-y-2 p-2">
                     <p class="text-[#1D2130] text-xl font-semibold">Leonard John Davies</p>
@@ -473,7 +480,8 @@
             {{-- card-7 --}}
             <div class="card-hover ">
                 <div>
-                    <img class="h-72 w-full rounded-lg" src="{{ asset('frontend/images/team-3.png') }}" alt="">
+                    <img class="h-72 w-full object-cover  rounded-lg" src="{{ asset('frontend/images/team-3.png') }}"
+                        alt="">
                 </div>
                 <div class="text-center space-y-2 p-2">
                     <p class="text-[#1D2130] text-xl font-semibold">Leonard John Davies</p>
@@ -488,7 +496,8 @@
             {{-- card-8 --}}
             <div class="card-hover ">
                 <div>
-                    <img class="h-72 w-full rounded-lg" src="{{ asset('frontend/images/team-2.png') }}" alt="">
+                    <img class="h-72 w-full object-cover  rounded-lg" src="{{ asset('frontend/images/team-2.png') }}"
+                        alt="">
                 </div>
                 <div class="text-center space-y-2 p-2">
                     <p class="text-[#1D2130] text-xl font-semibold">Leonard John Davies</p>
@@ -522,8 +531,301 @@
         </div>
     </section> --}}
 
-    <section class="py-20">
+    {{-- testimonial --}}
+    <section class="py-10 bg-[#e5fae7]">
+        <div class="container">
+            <div class="text-center pb-16 space-y-3">
+                <p class="text-5xl font-bold text-[#1D2130]">Testimonials</p>
+                <p class="text-[#525560] ">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Expedita recusandae,
+                    vero
+                    odio error suscipit enim quasi dibus.</p>
+            </div>
+            <div class="  grid grid-cols-1 gap-x-6 gap-y-12 md:grid-cols-2 lg:grid-cols-3">
+                {{-- card-1 --}}
+                <div class=" w-full relative bg-white  border-red-800 border-2 p-5 rounded-t-[120px]">
+
+                    <div class="absolute -top-12 right-0 bg-red-800 h-[132px] w-[132px]  rounded-t-full rounded-br-full">
+                    </div>
+                    <img class=" absolute -top-12 right-0 h-32 rounded-t-full rounded-br-full"
+                        src="{{ asset('frontend/images/anisha.png') }}" alt="">
+                    <div class="flex gap-3 justify-end items-end">
+                        <div class=" pt-10 lg:pt-16 xl:pt-10 pl-3">
+                            <div class="flex gap-2">
+                                <p class="text-xl font-medium text-red-800">Anisha</p>
+                                <p class="text-xl font-medium">Mishra</p>
+                            </div>
+
+                            <p class="text-sm ">Founder</p>
+
+                            <p class="pt-2 text-justify">She is a CEO who leads with dedication,
+                                shaping success in all endeavors.</p>
+                            {{-- </div> --}}
+                        </div>
+                        <div class="text-[#525560]  ">
+                            <i class="ri-facebook-circle-fill rounded-full bg-gray-100 p-  text-xl"></i>
+                            <i class="ri-twitter-fill  rounded-full bg-gray-100 p-  text-xl my-4"></i>
+                            <i class="ri-linkedin-box-fill  rounded-full bg-gray-100 p-  text-xl"></i>
+                        </div>
+
+                    </div>
+
+                </div>
+
+                {{-- card-2 --}}
+                <div class=" w-full relative bg-white  border-red-800 border-2 p-5 rounded-t-[120px]">
+
+                    <div class="absolute -top-12 right-0 bg-red-800 h-[132px] w-[132px]  rounded-t-full rounded-br-full">
+                    </div>
+                    <img class=" absolute -top-12 right-0 h-32 rounded-t-full rounded-br-full"
+                        src="{{ asset('frontend/images/anisha.png') }}" alt="">
+                    <div class="flex gap-3 justify-end items-end">
+                        <div class=" pt-10 lg:pt-16 xl:pt-10 pl-3">
+                            <div class="flex gap-2">
+                                <p class="text-xl font-medium text-red-800">Anisha</p>
+                                <p class="text-xl font-medium">Mishra</p>
+                            </div>
+
+                            <p class="text-sm ">Founder</p>
+
+                            <p class="pt-2 text-justify">She is a CEO who leads with dedication,
+                                shaping success in all endeavors.</p>
+                            {{-- </div> --}}
+                        </div>
+                        <div class="text-[#525560]  ">
+                            <i class="ri-facebook-circle-fill rounded-full bg-gray-100 p-  text-xl"></i>
+                            <i class="ri-twitter-fill  rounded-full bg-gray-100 p-  text-xl my-4"></i>
+                            <i class="ri-linkedin-box-fill  rounded-full bg-gray-100 p-  text-xl"></i>
+                        </div>
+
+                    </div>
+
+                </div>
+                {{-- card-3 --}}
+                <div class=" w-full relative bg-white  border-red-800 border-2 p-5 rounded-t-[120px]">
+
+                    <div class="absolute -top-12 right-0 bg-red-800 h-[132px] w-[132px]  rounded-t-full rounded-br-full">
+                    </div>
+                    <img class=" absolute -top-12 right-0 h-32 rounded-t-full rounded-br-full"
+                        src="{{ asset('frontend/images/anisha.png') }}" alt="">
+                    <div class="flex gap-3 justify-end items-end">
+                        <div class=" pt-10 lg:pt-16 xl:pt-10 pl-3">
+                            <div class="flex gap-2">
+                                <p class="text-xl font-medium text-red-800">Anisha</p>
+                                <p class="text-xl font-medium">Mishra</p>
+                            </div>
+
+                            <p class="text-sm ">Founder</p>
+
+                            <p class="pt-2 text-justify">She is a CEO who leads with dedication,
+                                shaping success in all endeavors.</p>
+                            {{-- </div> --}}
+                        </div>
+                        <div class="text-[#525560]  ">
+                            <i class="ri-facebook-circle-fill rounded-full bg-gray-100 p-  text-xl"></i>
+                            <i class="ri-twitter-fill  rounded-full bg-gray-100 p-  text-xl my-4"></i>
+                            <i class="ri-linkedin-box-fill  rounded-full bg-gray-100 p-  text-xl"></i>
+                        </div>
+
+                    </div>
+
+                </div>
+            </div>
+
+        </div>
 
     </section>
 
+    {{-- pdes-team --}}
+    <section class="container py-20">
+        <div class="grid lg:grid-cols-2 xl:grid-cols-3 gap-y-14  gap-x-12">
+            {{-- card-1 --}}
+            <div class="shadow-lg p-3 mr-8 lg:mr-0 relative rounded-md lg:mx-0 mx-5">
+                <img class="h-80 w-[85%] object-cover rounded-lg absolute -top-8  -right-4  lg:mx-0"
+                    src="{{ asset('frontend/images/team-1.png') }}" alt="">
+                <div class="text-[#525560] flex flex-col ">
+                    <i class="ri-facebook-circle-fill rounded-full bg-white p-1  text-xl"></i>
+                    <i class="ri-twitter-fill  rounded-full bg-white p-1  text-xl my-4"></i>
+                    <i class="ri-linkedin-box-fill  rounded-full bg-white p-1  text-xl"></i>
+                </div>
+                <div class="pl-16 md:pl-28 lg:pl-16 pt-36">
+                    <p class="text-2xl ">Sabina karki</p>
+                    <p class="text-lg">ceo</p>
+                    <p class="text-[#525560]">Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit reprehenderit
+                        error quis aliquam saepe
+                        totam vero rem? Quidem vitae ipsum itaque, magni mollitia, in nulla perspiciam?</p>
+                </div>
+            </div>
+            {{-- card-2 --}}
+            <div class="shadow-lg p-3 mr-8 lg:mr-0 relative rounded-md lg:mx-0 mx-5">
+                <img class="h-80 w-[85%] object-cover rounded-lg absolute -top-8  -right-4  lg:mx-0"
+                    src="{{ asset('frontend/images/team-1.png') }}" alt="">
+                <div class="text-[#525560] flex flex-col ">
+                    <i class="ri-facebook-circle-fill rounded-full bg-white p-1  text-xl"></i>
+                    <i class="ri-twitter-fill  rounded-full bg-white p-1  text-xl my-4"></i>
+                    <i class="ri-linkedin-box-fill  rounded-full bg-white p-1  text-xl"></i>
+                </div>
+                <div class="pl-16 md:pl-28 lg:pl-16 pt-36">
+                    <p class="text-2xl ">Sabina karki</p>
+                    <p class="text-lg">ceo</p>
+                    <p class="text-[#525560]">Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit reprehenderit
+                        error quis aliquam saepe
+                        totam vero rem? Quidem vitae ipsum itaque, magni mollitia, in nulla perspiciam?</p>
+                </div>
+            </div>
+            {{-- card-3 --}}
+            <div class="shadow-lg p-3 mr-8 lg:mr-0 relative rounded-md lg:mx-0 mx-5">
+                <img class="h-80 w-[85%] object-cover rounded-lg absolute -top-8  -right-4  lg:mx-0"
+                    src="{{ asset('frontend/images/team-1.png') }}" alt="">
+                <div class="text-[#525560] flex flex-col ">
+                    <i class="ri-facebook-circle-fill rounded-full bg-white p-1  text-xl"></i>
+                    <i class="ri-twitter-fill  rounded-full bg-white p-1  text-xl my-4"></i>
+                    <i class="ri-linkedin-box-fill  rounded-full bg-white p-1  text-xl"></i>
+                </div>
+                <div class="pl-16 md:pl-28 lg:pl-16 pt-36">
+                    <p class="text-2xl ">Sabina karki</p>
+                    <p class="text-lg">ceo</p>
+                    <p class="text-[#525560]">Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit reprehenderit
+                        error quis aliquam saepe
+                        totam vero rem? Quidem vitae ipsum itaque, magni mollitia, in nulla perspiciam?</p>
+                </div>
+            </div>
+            {{-- card-4 --}}
+            <div class="shadow-lg p-3 mr-8 lg:mr-0 relative rounded-md lg:mx-0 mx-5">
+                <img class="h-80 w-[85%] object-cover rounded-lg absolute -top-8  -right-4  lg:mx-0"
+                    src="{{ asset('frontend/images/team-1.png') }}" alt="">
+                <div class="text-[#525560] flex flex-col ">
+                    <i class="ri-facebook-circle-fill rounded-full bg-white p-1  text-xl"></i>
+                    <i class="ri-twitter-fill  rounded-full bg-white p-1  text-xl my-4"></i>
+                    <i class="ri-linkedin-box-fill  rounded-full bg-white p-1  text-xl"></i>
+                </div>
+                <div class="pl-16 md:pl-28 lg:pl-16 pt-36">
+                    <p class="text-2xl ">Sabina karki</p>
+                    <p class="text-lg">ceo</p>
+                    <p class="text-[#525560]">Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit reprehenderit
+                        error quis aliquam saepe
+                        totam vero rem? Quidem vitae ipsum itaque, magni mollitia, in nulla perspiciam?</p>
+                </div>
+            </div>
+            {{-- card-5 --}}
+            <div class="shadow-lg p-3 mr-8 lg:mr-0 relative rounded-md lg:mx-0 mx-5">
+                <img class="h-80 w-[85%] object-cover rounded-lg absolute -top-8  -right-4  lg:mx-0"
+                    src="{{ asset('frontend/images/team-1.png') }}" alt="">
+                <div class="text-[#525560] flex flex-col ">
+                    <i class="ri-facebook-circle-fill rounded-full bg-white p-1  text-xl"></i>
+                    <i class="ri-twitter-fill  rounded-full bg-white p-1  text-xl my-4"></i>
+                    <i class="ri-linkedin-box-fill  rounded-full bg-white p-1  text-xl"></i>
+                </div>
+                <div class="pl-16 md:pl-28 lg:pl-16 pt-36">
+                    <p class="text-2xl ">Sabina karki</p>
+                    <p class="text-lg">ceo</p>
+                    <p class="text-[#525560]">Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit reprehenderit
+                        error quis aliquam saepe
+                        totam vero rem? Quidem vitae ipsum itaque, magni mollitia, in nulla perspiciam?</p>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+
+    <!-- Swiper -->
+    <section class="container py-20">
+        <div class="swiper mySwiper">
+            <div class="swiper-wrapper ">
+                <div class="swiper-slide hover:rounded-lg">
+                    <img class="img h-96 rounded-lg object-cover   "
+                        src="{{ asset('frontend/images/20230809164406file-thailand-emerald-buddha-temple-94wh8kbsw7xs00i9.jpg') }}"
+                        alt="">
+
+
+                    <div class="bg absolute rounded-b-md bg-black opacity-[70%]   bottom-0 left-0 w-full h-[20%] ">
+                    </div>
+                    <div class="">
+                        <p class="text-2xl text-white font-semibold  absolute bottom-14 left-3 up ">Bankok and
+                            Krabi
+                        </p>
+                        <div class="flex gap-1 absolute bottom-8 left-3  up">
+                            <i class="ri-star-fill text-yellow-400 text-lg"></i>
+                            <i class="ri-star-fill text-yellow-400 text-lg"></i>
+                            <i class="ri-star-fill text-yellow-400 text-lg"></i>
+                            <i class="ri-star-fill text-yellow-400 text-lg"></i>
+                            <i class="ri-star-fill text-yellow-400 text-lg"></i>
+                        </div>
+                        <p class="text-white text-end absolute bottom-8 right-3 up  text-sm">Rs 96,000</p>
+
+                    </div>
+
+
+                    {{-- </div> --}}
+
+                </div>
+                <div class="swiper-slide">
+                    <img class="h-96 rounded-lg"
+                        src="{{ asset('frontend/images/20230809161516file-kuala-lumpur-twins-malaysia-petronas-twin-towers.jpg') }}"
+                        alt="">
+                </div>
+                <div class="swiper-slide">
+                    <img class="h-96 rounded-lg"
+                        src="{{ asset('frontend/images/20230809161516file-kuala-lumpur-twins-malaysia-petronas-twin-towers.jpg') }}"
+                        alt="">
+                </div>
+                <div class="swiper-slide">
+                    <img class="h-96 rounded-lg"
+                        src="{{ asset('frontend/images/20230809161516file-kuala-lumpur-twins-malaysia-petronas-twin-towers.jpg') }}"
+                        alt="">
+                </div>
+                <div class="swiper-slide">Slide 5</div>
+                <div class="swiper-slide">Slide 6</div>
+                <div class="swiper-slide">Slide 7</div>
+                <div class="swiper-slide">Slide 8</div>
+                <div class="swiper-slide">Slide 9</div>
+            </div>
+            {{-- <div class="swiper-button-next"></div> --}}
+            {{-- <div class="swiper-button-prev"></div> --}}
+            <div class="swiper-pagination "></div>
+            <div class="autoplay-progress">
+                <svg viewBox="0 0 48 48">
+                    {{-- <circle cx="24" cy="24" r="20"></circle> --}}
+                </svg>
+                <span></span>
+            </div>
+        </div>
+
+
+    </section>
+
+
+
+
+    <!-- Swiper JS -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+    <!-- Initialize Swiper -->
+    <script>
+        const progressCircle = document.querySelector(".autoplay-progress svg");
+        const progressContent = document.querySelector(".autoplay-progress span");
+        var swiper = new Swiper(".mySwiper", {
+            slidesPerView: 4,
+            spaceBetween: 20,
+            centeredSlides: true,
+            // autoplay: {
+            //     delay: 1000,
+            //     disableOnInteraction: false
+            // },
+            pagination: {
+                el: ".swiper-pagination",
+                clickable: true
+            },
+            navigation: {
+                nextEl: ".swiper-button-next",
+                prevEl: ".swiper-button-prev"
+            },
+            on: {
+                autoplayTimeLeft(s, time, progress) {
+                    progressCircle.style.setProperty("--progress", 1 - progress);
+                    progressContent.textContent = `${Math.ceil(time / 1000)}s`;
+                }
+            }
+        });
+    </script>
 @endsection

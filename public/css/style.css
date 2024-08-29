@@ -1,7 +1,6 @@
 .marquee {
     width: 100%;
     overflow: hidden;
-    /* white-space: nowrap; */
     box-sizing: border-box;
 }
 
@@ -17,12 +16,12 @@
         transform: translateX(-100%);
     }
 }
+
 .more-button:after {
     content: "»";
     position: absolute;
     opacity: 0;
     top: 8px;
-    right: -20px;
     transition: 0.5s;
 }
 
@@ -58,6 +57,7 @@
     transition: ease-in-out 0.5s;
     color: rgb(5, 42, 9);
 }
+/* team card hover */
 .card-hover {
     cursor: pointer;
     position: relative;
@@ -97,7 +97,6 @@
         &:after {
             width: 100%;
             height: 50%;
-            /* border-color:white; */
         }
     }
 }
@@ -121,7 +120,7 @@
             ellipse at center,
             rgba(0, 0, 0, 0.35) 0%,
             rgba(0, 0, 0, 0) 80%
-        ); /* W3C */
+        );
         transition-duration: $defaultDuration;
         transition-property: transform opacity;
     }
@@ -162,8 +161,6 @@
     transition-duration: defaultDuration;
     transition-property: transform;
 
- 
-
     &:before {
         pointer-events: none;
         position: absolute;
@@ -178,7 +175,7 @@
             ellipse at center,
             rgba(0, 0, 0, 0.35) 0%,
             rgba(0, 0, 0, 0) 80%
-        ); /* W3C */
+        );
         transition-duration: $defaultDuration;
         transition-property: transform opacity;
     }
@@ -205,7 +202,7 @@
     }
 }
 
-.card--1 .card__img,
+/* .card--1 .card__img,
 .card--1 .card__img--hover {
     background-image: url("{{ asset('frontend/images/team-2.png') }}");
 }
@@ -289,76 +286,71 @@
 
 .card:hover .card__info-hover {
     opacity: 1;
-}
-
-
-
-
-
-/* .pen-info {
-    color: #d4d3d4;
-    font-size: 80%;
-    text-transform: uppercase;
-}
-
-.c-button {
-    color: #000;
-    font-weight: 700;
-    font-size: 1em;
-    text-decoration: none;
-    padding: 0.7em 1.8em;
-    cursor: pointer;
-    display: inline-block;
-    vertical-align: middle;
-}
-
-.c-button--gooey {
-    color: $color-bluish;
-    font-size: 1.3em;
-    text-transform: uppercase;
-    letter-spacing: 2px;
-    border: 4px solid $color-bluish;
-    border-radius: 0;
-    padding: 1.2em 3.4em;
-    position: relative;
-    transition: all 700ms ease;
-    .c-button__blobs {
-        height: 100%;
-        filter: url(#goo);
-        overflow: hidden;
-        position: absolute;
-        top: 0;
-        left: 0;
-        bottom: -3px;
-        right: -1px;
-        z-index: -1;
-        div {
-            background-color: $color-bluish;
-            width: 34%;
-            height: 100%;
-            border-radius: 100%;
-            position: absolute;
-            transform: scale(1.4) translateY(125%) translateZ(0);
-            transition: all 700ms ease;
-            &:nth-child(1) {
-                left: -5%;
-            }
-            &:nth-child(2) {
-                left: 30%;
-                transition-delay: 60ms;
-            }
-            &:nth-child(3) {
-                left: 66%;
-                transition-delay: 25ms;
-            }
-        }
-    }
-    &:hover {
-        color: #fff;
-        .c-button__blobs {
-            div {
-                transform: scale(1.4) translateY(0) translateZ(0);
-            }
-        }
-    }
 } */
+
+/* swiper */
+.swiper {
+    width: 100%;
+    height: 100%;
+}
+
+.swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.slider-wrap {
+    animation: scroll 6s linear infinite;
+    display: flex;
+    gap: 10px;
+    width: calc(200px * 6);
+    height: 100%;
+}
+
+.autoplay-progress {
+    position: absolute;
+    right: 16px;
+    bottom: 16px;
+    z-index: 10;
+    width: 48px;
+    height: 48px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    color: var(--swiper-theme-color);
+}
+
+.autoplay-progress svg {
+    --progress: 0;
+    position: absolute;
+    left: 0;
+    top: 0px;
+    z-index: 10;
+    width: 100%;
+    height: 100%;
+    stroke-width: 4px;
+    stroke: var(--swiper-theme-color);
+    fill: none;
+    stroke-dashoffset: calc(125.6px * (1 - var(--progress)));
+    stroke-dasharray: 125.6;
+    transform: rotate(-90deg);
+}
+.img:hover {
+    transform: scale(1.1);
+    transition: .5s ease-in-out;
+}
+.up:hover {
+    position: absolute;
+    top: 70%;
+    left: 8px;   
+    transition: top 3s ease;
+    color: white;
+}
+.bg:hover {
+    height: 40%;
+    transition: top 5s ease;
+}
