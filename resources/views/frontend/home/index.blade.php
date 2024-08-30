@@ -754,10 +754,6 @@
                         <p class="text-white text-end absolute bottom-8 right-3 up  text-sm">Rs 96,000</p>
 
                     </div>
-
-
-                    {{-- </div> --}}
-
                 </div>
                 <div class="swiper-slide">
                     <img class="h-96 rounded-lg"

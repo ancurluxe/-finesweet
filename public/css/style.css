@@ -301,14 +301,9 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-bottom: 50px !important;
 }
-.slider-wrap {
-    animation: scroll 6s linear infinite;
-    display: flex;
-    gap: 10px;
-    width: calc(200px * 6);
-    height: 100%;
-}
+
 
 .autoplay-progress {
     position: absolute;
@@ -341,12 +336,12 @@
 }
 .img:hover {
     transform: scale(1.1);
-    transition: .5s ease-in-out;
+    transition: 0.5s ease-in-out;
 }
 .up:hover {
     position: absolute;
     top: 70%;
-    left: 8px;   
+    left: 8px;
     transition: top 3s ease;
     color: white;
 }
