@@ -202,92 +202,6 @@
     }
 }
 
-/* .card--1 .card__img,
-.card--1 .card__img--hover {
-    background-image: url("{{ asset('frontend/images/team-2.png') }}");
-}
-
-.card__img {
-    visibility: hidden;
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    width: 100%;
-    height: 235px;
-    border-top-left-radius: 12px;
-    border-top-right-radius: 12px;
-}
-
-.card__img--hover {
-    transition: 0.2s all ease-out;
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    width: 100%;
-    position: absolute;
-    height: 235px;
-    border-top-left-radius: 12px;
-    border-top-right-radius: 12px;
-    top: 0;
-}
-.card {
-    margin-right: 25px;
-    transition: all 0.4s cubic-bezier(0.175, 0.885, 0, 1);
-    background-color: #fff;
-    width: 33.3%;
-    position: relative;
-    border-radius: 12px;
-    overflow: hidden;
-    box-shadow: 0px 13px 10px -7px rgba(0, 0, 0, 0.1);
-}
-.card:hover {
-    box-shadow: 0px 30px 18px -8px rgba(0, 0, 0, 0.1);
-    transform: scale(1.1, 1.1);
-}
-
-.card__info {
-    z-index: 2;
-    background-color: #fff;
-    border-bottom-left-radius: 12px;
-    border-bottom-right-radius: 12px;
-    padding: 16px 24px 24px 24px;
-}
-
-.card__category {
-    font-family: "Raleway", sans-serif;
-    text-transform: uppercase;
-    font-size: 13px;
-    letter-spacing: 2px;
-    font-weight: 500;
-    color: #868686;
-}
-
-.card__by {
-    font-size: 12px;
-    font-family: "Raleway", sans-serif;
-    font-weight: 500;
-}
-
-.card__author {
-    font-weight: 600;
-    text-decoration: none;
-    color: #ad7d52;
-}
-
-.card:hover .card__img--hover {
-    height: 100%;
-    opacity: 0.3;
-}
-
-.card:hover .card__info {
-    background-color: transparent;
-    position: relative;
-}
-
-.card:hover .card__info-hover {
-    opacity: 1;
-} */
-
 /* swiper */
 .swiper {
     width: 100%;
@@ -304,7 +218,6 @@
     margin-bottom: 50px !important;
 }
 
-
 .autoplay-progress {
     position: absolute;
     right: 16px;
@@ -316,7 +229,7 @@
     align-items: center;
     justify-content: center;
     font-weight: bold;
-    color: var(--swiper-theme-color);
+    color: white;
 }
 
 .autoplay-progress svg {
@@ -334,18 +247,60 @@
     stroke-dasharray: 125.6;
     transform: rotate(-90deg);
 }
-.img:hover {
-    transform: scale(1.1);
-    transition: 0.5s ease-in-out;
+/* swiper */
+.swiper-2 {
+    width: 100%;
+    height: 100%;
 }
-.up:hover {
+
+.swiper-slide-2 {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 50px !important;
+}
+
+.autoplay-progress-2 {
     position: absolute;
-    top: 70%;
-    left: 8px;
-    transition: top 3s ease;
+    right: 16px;
+    bottom: 16px;
+    z-index: 10;
+    width: 48px;
+    height: 48px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
     color: white;
 }
-.bg:hover {
-    height: 40%;
-    transition: top 5s ease;
+
+
+
+.revolve {
+    animation: delayed-spin 7s linear infinite;
+    animation-delay: 1s; /* Delay before starting the spin */
+}
+@keyframes delayed-spin {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+.card-stack1{
+        transform: rotate(5deg);
+}
+.card-stack2{
+        transform: rotate(-13deg);
+}
+.card-stack3{
+        transform: rotate(-15deg);
+}
+.card-stack4{
+        transform: rotate(-5deg);
 }

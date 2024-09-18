@@ -728,53 +728,190 @@
     </section>
 
 
-    <!-- Swiper -->
+    <!--multicity Swiper -->
     <section class="container py-20">
         <div class="swiper mySwiper">
-            <div class="swiper-wrapper ">
-                <div class="swiper-slide hover:rounded-lg">
-                    <img class="img h-96 rounded-lg object-cover   "
+            <div class="swiper-wrapper">
+                {{--  --}}
+
+                {{--  --}}
+                <div class="swiper-slide hover:rounded-lg group  w-full h-[420px] lg:w-[300px] 3xl:w-full">
+                    <img class="w-full h-full rounded-lg object-cover group-hover:scale-110  ease-in duration-300"
                         src="{{ asset('frontend/images/20230809164406file-thailand-emerald-buddha-temple-94wh8kbsw7xs00i9.jpg') }}"
                         alt="">
 
+                    <div
+                        class="bg absolute rounded-b-md bg-black opacity-[70%]   bottom-0 left-0 w-full h-[18%] group-hover:h-[35%]  ease-linear duration-300 ">
+                        <div class=" w-full absolute p-2 bottom-3 group-hover:-translate-y-7 ">
+                            <p class="text-2xl px-1 text-start text-white font-semibold  ">Bankok and
+                                Krabi
+                            </p>
+                            <div class="text-start pl-2">
+                                <i class="ri-star-fill text-yellow-400 text-lg"></i>
+                                <i class="ri-star-fill text-yellow-400 text-lg"></i>
+                                <i class="ri-star-fill text-yellow-400 text-lg"></i>
+                                <i class="ri-star-fill text-yellow-400 text-lg"></i>
+                                <i class="ri-star-fill text-yellow-400 text-lg"></i>
+                            </div>
+                            <p class="text-white text-end absolute right-3 bottom-2  text-sm ">Rs 96,000</p>
 
-                    <div class="bg absolute rounded-b-md bg-black opacity-[70%]   bottom-0 left-0 w-full h-[20%] ">
-                    </div>
-                    <div class="">
-                        <p class="text-2xl text-white font-semibold  absolute bottom-14 left-3 up ">Bankok and
-                            Krabi
-                        </p>
-                        <div class="flex gap-1 absolute bottom-8 left-3  up">
-                            <i class="ri-star-fill text-yellow-400 text-lg"></i>
-                            <i class="ri-star-fill text-yellow-400 text-lg"></i>
-                            <i class="ri-star-fill text-yellow-400 text-lg"></i>
-                            <i class="ri-star-fill text-yellow-400 text-lg"></i>
-                            <i class="ri-star-fill text-yellow-400 text-lg"></i>
                         </div>
-                        <p class="text-white text-end absolute bottom-8 right-3 up  text-sm">Rs 96,000</p>
-
                     </div>
+
                 </div>
-                <div class="swiper-slide">
-                    <img class="h-96 rounded-lg"
-                        src="{{ asset('frontend/images/20230809161516file-kuala-lumpur-twins-malaysia-petronas-twin-towers.jpg') }}"
+                {{--  --}}
+                <div class="swiper-slide hover:rounded-lg group w-full h-[420px] lg:w-[300px] 3xl:w-full">
+                    <img class="w-full h-full rounded-lg object-cover group-hover:scale-110  ease-in duration-300"
+                        src="{{ asset('frontend/images/20230809164406file-thailand-emerald-buddha-temple-94wh8kbsw7xs00i9.jpg') }}"
                         alt="">
+
+                    <div
+                        class="bg absolute rounded-b-md bg-black opacity-[70%]   bottom-0 left-0 w-full h-[18%] group-hover:h-[35%]  ease-linear duration-300 ">
+                        <div class=" w-full absolute p-2 bottom-3 group-hover:-translate-y-7 ">
+                            <p class="text-2xl px-1 text-start text-white font-semibold  ">Bankok and
+                                Krabi
+                            </p>
+                            <div class="text-start pl-2">
+                                <i class="ri-star-fill text-yellow-400 text-lg"></i>
+                                <i class="ri-star-fill text-yellow-400 text-lg"></i>
+                                <i class="ri-star-fill text-yellow-400 text-lg"></i>
+                                <i class="ri-star-fill text-yellow-400 text-lg"></i>
+                                <i class="ri-star-fill text-yellow-400 text-lg"></i>
+                            </div>
+                            <p class="text-white text-end absolute right-3 bottom-2  text-sm ">Rs 96,000</p>
+
+                        </div>
+                    </div>
+
                 </div>
-                <div class="swiper-slide">
-                    <img class="h-96 rounded-lg"
-                        src="{{ asset('frontend/images/20230809161516file-kuala-lumpur-twins-malaysia-petronas-twin-towers.jpg') }}"
+                {{--  --}}
+                <div class="swiper-slide hover:rounded-lg group w-full h-[420px] lg:w-[300px] 3xl:w-full">
+                    <img class="w-full h-full rounded-lg object-cover group-hover:scale-110  ease-in duration-300"
+                        src="{{ asset('frontend/images/20230809164406file-thailand-emerald-buddha-temple-94wh8kbsw7xs00i9.jpg') }}"
                         alt="">
+
+                    <div
+                        class="bg absolute rounded-b-md bg-black opacity-[70%]   bottom-0 left-0 w-full h-[18%] group-hover:h-[35%]  ease-linear duration-300 ">
+                        <div class=" w-full absolute p-2 bottom-3 group-hover:-translate-y-7 ">
+                            <p class="text-2xl px-1 text-start text-white font-semibold  ">Bankok and
+                                Krabi
+                            </p>
+                            <div class="text-start pl-2">
+                                <i class="ri-star-fill text-yellow-400 text-lg"></i>
+                                <i class="ri-star-fill text-yellow-400 text-lg"></i>
+                                <i class="ri-star-fill text-yellow-400 text-lg"></i>
+                                <i class="ri-star-fill text-yellow-400 text-lg"></i>
+                                <i class="ri-star-fill text-yellow-400 text-lg"></i>
+                            </div>
+                            <p class="text-white text-end absolute right-3 bottom-2  text-sm ">Rs 96,000</p>
+
+                        </div>
+                    </div>
+
                 </div>
-                <div class="swiper-slide">
-                    <img class="h-96 rounded-lg"
-                        src="{{ asset('frontend/images/20230809161516file-kuala-lumpur-twins-malaysia-petronas-twin-towers.jpg') }}"
+                {{--  --}}
+                <div class="swiper-slide hover:rounded-lg group w-full h-[420px] lg:w-[300px] 3xl:w-full">
+                    <img class="w-full h-full rounded-lg object-cover group-hover:scale-110  ease-in duration-300"
+                        src="{{ asset('frontend/images/20230809164406file-thailand-emerald-buddha-temple-94wh8kbsw7xs00i9.jpg') }}"
                         alt="">
+
+                    <div
+                        class="bg absolute rounded-b-md bg-black opacity-[70%]   bottom-0 left-0 w-full h-[18%] group-hover:h-[35%]  ease-linear duration-300 ">
+                        <div class=" w-full absolute p-2 bottom-3 group-hover:-translate-y-7 ">
+                            <p class="text-2xl px-1 text-start text-white font-semibold  ">Bankok and
+                                Krabi
+                            </p>
+                            <div class="text-start pl-2">
+                                <i class="ri-star-fill text-yellow-400 text-lg"></i>
+                                <i class="ri-star-fill text-yellow-400 text-lg"></i>
+                                <i class="ri-star-fill text-yellow-400 text-lg"></i>
+                                <i class="ri-star-fill text-yellow-400 text-lg"></i>
+                                <i class="ri-star-fill text-yellow-400 text-lg"></i>
+                            </div>
+                            <p class="text-white text-end absolute right-3 bottom-2  text-sm ">Rs 96,000</p>
+
+                        </div>
+                    </div>
+
                 </div>
-                <div class="swiper-slide">Slide 5</div>
-                <div class="swiper-slide">Slide 6</div>
-                <div class="swiper-slide">Slide 7</div>
-                <div class="swiper-slide">Slide 8</div>
-                <div class="swiper-slide">Slide 9</div>
+                {{--  --}}
+                <div class="swiper-slide hover:rounded-lg group w-full h-[420px] lg:w-[300px] 3xl:w-full">
+                    <img class="w-full h-full rounded-lg object-cover group-hover:scale-110  ease-in duration-300"
+                        src="{{ asset('frontend/images/20230809164406file-thailand-emerald-buddha-temple-94wh8kbsw7xs00i9.jpg') }}"
+                        alt="">
+
+                    <div
+                        class="bg absolute rounded-b-md bg-black opacity-[70%]   bottom-0 left-0 w-full h-[18%] group-hover:h-[35%]  ease-linear duration-300 ">
+                        <div class=" w-full absolute p-2 bottom-3 group-hover:-translate-y-7 ">
+                            <p class="text-2xl px-1 text-start text-white font-semibold  ">Bankok and
+                                Krabi
+                            </p>
+                            <div class="text-start pl-2">
+                                <i class="ri-star-fill text-yellow-400 text-lg"></i>
+                                <i class="ri-star-fill text-yellow-400 text-lg"></i>
+                                <i class="ri-star-fill text-yellow-400 text-lg"></i>
+                                <i class="ri-star-fill text-yellow-400 text-lg"></i>
+                                <i class="ri-star-fill text-yellow-400 text-lg"></i>
+                            </div>
+                            <p class="text-white text-end absolute right-3 bottom-2  text-sm ">Rs 96,000</p>
+
+                        </div>
+                    </div>
+
+                </div>
+                {{--  --}}
+                <div class="swiper-slide hover:rounded-lg group w-full h-[420px] lg:w-[300px] 3xl:w-full">
+                    <img class="w-full h-full rounded-lg object-cover group-hover:scale-110  ease-in duration-300"
+                        src="{{ asset('frontend/images/20230809164406file-thailand-emerald-buddha-temple-94wh8kbsw7xs00i9.jpg') }}"
+                        alt="">
+
+                    <div
+                        class="bg absolute rounded-b-md bg-black opacity-[70%]   bottom-0 left-0 w-full h-[18%] group-hover:h-[35%]  ease-linear duration-300 ">
+                        <div class=" w-full absolute p-2 bottom-3 group-hover:-translate-y-7 ">
+                            <p class="text-2xl px-1 text-start text-white font-semibold  ">Bankok and
+                                Krabi
+                            </p>
+                            <div class="text-start pl-2">
+                                <i class="ri-star-fill text-yellow-400 text-lg"></i>
+                                <i class="ri-star-fill text-yellow-400 text-lg"></i>
+                                <i class="ri-star-fill text-yellow-400 text-lg"></i>
+                                <i class="ri-star-fill text-yellow-400 text-lg"></i>
+                                <i class="ri-star-fill text-yellow-400 text-lg"></i>
+                            </div>
+                            <p class="text-white text-end absolute right-3 bottom-2  text-sm ">Rs 96,000</p>
+
+                        </div>
+                    </div>
+
+                </div>
+                {{--  --}}
+                <div class="swiper-slide hover:rounded-lg group w-full h-[420px] lg:w-[300px] 3xl:w-full">
+                    <img class="w-full h-full rounded-lg object-cover group-hover:scale-110  ease-in duration-300"
+                        src="{{ asset('frontend/images/20230809164406file-thailand-emerald-buddha-temple-94wh8kbsw7xs00i9.jpg') }}"
+                        alt="">
+
+                    <div
+                        class="bg absolute rounded-b-md bg-black opacity-[70%]   bottom-0 left-0 w-full h-[18%] group-hover:h-[35%]  ease-linear duration-300 ">
+                        <div class=" w-full absolute p-2 bottom-3 group-hover:-translate-y-7 ">
+                            <p class="text-2xl px-1 text-start text-white font-semibold  ">Bankok and
+                                Krabi
+                            </p>
+                            <div class="text-start pl-2">
+                                <i class="ri-star-fill text-yellow-400 text-lg"></i>
+                                <i class="ri-star-fill text-yellow-400 text-lg"></i>
+                                <i class="ri-star-fill text-yellow-400 text-lg"></i>
+                                <i class="ri-star-fill text-yellow-400 text-lg"></i>
+                                <i class="ri-star-fill text-yellow-400 text-lg"></i>
+                            </div>
+                            <p class="text-white text-end absolute right-3 bottom-2  text-sm ">Rs 96,000</p>
+
+                        </div>
+                    </div>
+
+                </div>
+
+
+
             </div>
             {{-- <div class="swiper-button-next"></div> --}}
             {{-- <div class="swiper-button-prev"></div> --}}
@@ -789,32 +926,252 @@
 
 
     </section>
+    {{-- spin --}}
+    <section class="grid justify-center py-10">
+        <div class=" container relative overflow-hidden">
+            <div class="z-50 ">
+                <p class="text-lg w-96 ">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ex, blanditiis
+                    reiciendis nisi quasi deleniti cum suscipit inventore impedit harum perferendis voluptates est totam
+                    rerum
+                    iure nemo aspernatur. Odit, doloremque culpa?</p>
+            </div>
+
+            <div class=" absolute right-4 bottom-10 z-10">
+                <img class="h-full revolve " src=" {{ asset('frontend/images/rotate.png') }}" alt="">
+            </div>
+        </div>
+
+    </section>
+    {{-- overlapped swiper --}}
+    <section class="bg-gray-200 py-10 pb-28">
+        <div class="swiper-2 mySwiper-2 container">
+            <div class="swiper-wrapper-2">
+
+
+                <div class="bg-white h-96 p-3 ml-12 w-[310px] relative card-stack1 swiper-slide-2">
+                    <div class="bg-white  h-48 w-[250px]  absolute -left-12 top-10 card-stack2 "> </div>
+                    <div class="bg-white   h-44 w-[250px]  absolute -right- -bottom-20  card-stack3 "> </div>
+
+                    <div class=" bg-white card-stack4 h-[450px] p-1 w-[330px] absolute top-1 -left-6">
+
+                        <img class="h-48 w-full "
+                            src="{{ asset('frontend/images/20230809163548image-5bd33b3230b20-wallpaper-preview.jpg') }}"
+                            alt="">
+                        <p class="font-semibold text-2xl text-center mt-3">Dubai and Maldives</p>
+
+                        <p class="text-lg mt-3 text-center">Lorem ipsum dolor sit amet consectetur adipisicing
+                            elit. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eligendi consequuntur
+                            sed
+                            unde,
+                            ipsa eum impedit
+                        </p>
+                        <button
+                            class="mt-3 text-center btn-4 raise px-5 p-2 rounded-md text-white font-medium more-button">Learn
+                            more</button>
+
+
+                    </div>
+                </div>
+
+                <div class="bg-white h-96 p-3 ml-12 w-[310px] relative card-stack1 swiper-slide-2">
+                    <div class="bg-white  h-48 w-[250px]  absolute -left-12 top-10 card-stack2 "> </div>
+                    <div class="bg-white   h-44 w-[250px]  absolute -right- -bottom-20  card-stack3 "> </div>
+
+                    <div class=" bg-white card-stack4 h-[450px] p-1 w-[330px] absolute top-1 -left-6">
+
+                        <img class="h-48 w-full "
+                            src="{{ asset('frontend/images/20230809163548image-5bd33b3230b20-wallpaper-preview.jpg') }}"
+                            alt="">
+                        <p class="font-semibold text-2xl text-center mt-3">Dubai and Maldives</p>
+
+                        <p class="text-lg mt-3 text-center">Lorem ipsum dolor sit amet consectetur adipisicing
+                            elit. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eligendi consequuntur
+                            sed
+                            unde,
+                            ipsa eum impedit
+                        </p>
+                        <button
+                            class="mt-3 text-center btn-4 raise px-5 p-2 rounded-md text-white font-medium more-button">Learn
+                            more</button>
+
+
+                    </div>
+                </div>
+
+                <div class="bg-white h-96 p-3 ml-12 w-[310px] relative card-stack1 swiper-slide-2">
+                    <div class="bg-white  h-48 w-[250px]  absolute -left-12 top-10 card-stack2 "> </div>
+                    <div class="bg-white   h-44 w-[250px]  absolute -right- -bottom-20  card-stack3 "> </div>
+
+                    <div
+                        class=" bg-white card-stack4 
+                              h-[450px] p-1 w-[330px] absolute top-1 -left-6">
+
+                        <img class="h-48 w-full "
+                            src="{{ asset('frontend/images/20230809163548image-5bd33b3230b20-wallpaper-preview.jpg') }}"
+                            alt="">
+                        <p class="font-semibold text-2xl text-center mt-3">Dubai and Maldives</p>
+
+                        <p class="text-lg mt-3 text-center">Lorem ipsum dolor sit amet consectetur adipisicing
+                            elit. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eligendi consequuntur
+                            sed
+                            unde,
+                            ipsa eum impedit
+                        </p>
+                        <button
+                            class="mt-3 text-center btn-4 raise px-5 p-2 rounded-md text-white font-medium more-button">Learn
+                            more</button>
+
+
+                    </div>
+                </div>
+
+                <div class="bg-white h-96 p-3 ml-12 w-[310px] relative card-stack1 swiper-slide-2">
+                    <div class="bg-white  h-48 w-[250px]  absolute -left-12 top-10 card-stack2 "> </div>
+                    <div class="bg-white   h-44 w-[250px]  absolute -right- -bottom-20  card-stack3 "> </div>
+
+                    <div
+                        class=" bg-white card-stack4 
+                              h-[450px] p-1 w-[330px] absolute top-1 -left-6">
+
+                        <img class="h-48 w-full "
+                            src="{{ asset('frontend/images/20230809163548image-5bd33b3230b20-wallpaper-preview.jpg') }}"
+                            alt="">
+                        <p class="font-semibold text-2xl text-center mt-3">Dubai and Maldives</p>
+
+                        <p class="text-lg mt-3 text-center">Lorem ipsum dolor sit amet consectetur adipisicing
+                            elit. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eligendi consequuntur
+                            sed
+                            unde,
+                            ipsa eum impedit
+                        </p>
+                        <button
+                            class="mt-3 text-center btn-4 raise px-5 p-2 rounded-md text-white font-medium more-button">Learn
+                            more</button>
+
+
+                    </div>
+                </div>
+
+
+            </div>
+
+            <div class="swiper-pagination-2"></div>
+            <div class="autoplay-progress">
+                <svg viewBox="0 0 48 48">
+                    {{-- <circle cx="24" cy="24" r="20"></circle> --}}
+                </svg>
+                <span></span>
+            </div>
+        </div>
+
+
+    </section>
 
 
 
 
-    <!-- Swiper JS -->
+
+
+
+
+
+
+    <!--multicity Swiper JS -->
     <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
 
-    <!-- Initialize Swiper -->
+
+    <!-- multicity Swiper -->
     <script>
-        const progressCircle = document.querySelector(".autoplay-progress svg");
-        const progressContent = document.querySelector(".autoplay-progress span");
+        const progressCircle = document.querySelector(".autoplay-progress");
+        const progressContent = document.querySelector(".autoplay-progress");
+
         var swiper = new Swiper(".mySwiper", {
             slidesPerView: 4,
             spaceBetween: 20,
             centeredSlides: true,
-            // autoplay: {
-            //     delay: 1000,
-            //     disableOnInteraction: false
-            // },
+            autoplay: {
+                delay: 900,
+                disableOnInteraction: false,
+            },
+            breakpoints: {
+
+                375: {
+                    slidesPerView: 1,
+                    spaceBetween: 10,
+                },
+                768: {
+                    slidesPerView: 2,
+                    spaceBetween: 15,
+                },
+                1024: {
+                    slidesPerView: 3,
+                    spaceBetween: 10,
+                },
+                1224: {
+                    slidesPerView: 4,
+                    spaceBetween: 10,
+                },
+                1500: {
+                    slidesPerView: 4,
+                    spaceBetween: 10,
+                },
+            }, // <-- Add a comma here
             pagination: {
                 el: ".swiper-pagination",
-                clickable: true
+                clickable: true,
             },
             navigation: {
                 nextEl: ".swiper-button-next",
-                prevEl: ".swiper-button-prev"
+                prevEl: ".swiper-button-prev",
+            },
+            on: {
+                autoplayTimeLeft(s, time, progress) {
+                    progressCircle.style.setProperty("--progress", 1 - progress);
+                    progressContent.textContent = `${Math.ceil(time / 1000)}s`;
+                }
+            }
+        });
+    </script>
+    {{--  --}}
+    <script>
+        var swiper = new Swiper(".mySwiper-2", {
+            slidesPerView: 3,
+            spaceBetween: 20,
+            centeredSlides: true,
+            autoplay: {
+                delay: 900,
+                disableOnInteraction: false,
+            },
+            breakpoints: {
+
+                375: {
+                    slidesPerView: 1,
+                    spaceBetween: 10,
+                },
+                768: {
+                    slidesPerView: 1,
+                    spaceBetween: 15,
+                },
+                1024: {
+                    slidesPerView: 2,
+                    spaceBetween: 10,
+                },
+                1224: {
+                    slidesPerView: 3,
+                    spaceBetween: 10,
+                },
+                1500: {
+                    slidesPerView: 3,
+                    spaceBetween: 10,
+                },
+            }, // <-- Add a comma here
+            pagination: {
+                el: ".swiper-pagination-2",
+                clickable: true,
+            },
+            navigation: {
+                nextEl: ".swiper-button-next",
+                prevEl: ".swiper-button-prev",
             },
             on: {
                 autoplayTimeLeft(s, time, progress) {
